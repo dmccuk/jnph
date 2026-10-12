@@ -41,7 +41,7 @@
         </div>
         <ul>
           <li>£500 setup, paid once the site is live.</li>
-          <li>8% of what members pay each month, invoiced monthly.</li>
+          <li>8% of plan revenue each month, excluding VAT, invoiced monthly.</li>
           <li>£50 a month minimum while the plan is small. 8% takes over at about 36 members.</li>
           <li>All member payments go straight into John's own Stripe account. I never hold his money.</li>
         </ul>
@@ -88,9 +88,9 @@
         <h2>What my fee comes to</h2>
         <figure class="fee-chart">
           <svg id="fee-chart" viewBox="0 0 760 380" role="img" aria-label="My fee: £70 a month at 50 members, rising to £280 at 200"></svg>
-          <figcaption class="small">Assumes an average of £210 per member per year (a mix of monthly, yearly and air con).</figcaption>
+          <figcaption class="small">Assumes £210 per member per year excluding VAT (a mix of monthly, yearly and air con), as in the VAT added option. With VAT included it's about £175, and each bar is about a sixth lower.</figcaption>
         </figure>
-        <p>The £50 minimum only matters below about 36 members. Above that, my fee is always 8%.</p>
+        <p>The £50 minimum only matters below about 36 members (43 if VAT is included in the price). Above that, my fee is always 8%.</p>
       </section>
 
       <section>
@@ -119,21 +119,48 @@
       </section>
 
       <section>
-        <h2>In perspective</h2>
-        <p>At 50 members, John's first-year cost is about <strong>£1,340</strong>, less than a fifth of one £8,000 bathroom refit.</p>
-        <table class="data-table sums">
-          <thead><tr><th>At 50 members, year one</th><th>Amount</th></tr></thead>
-          <tbody>
-            <tr><td>Plan revenue</td><td>£10,500</td></tr>
-            <tr><td>Setup fee (once)</td><td>−£500</td></tr>
-            <tr><td>My 8% fee</td><td>−£840</td></tr>
-            <tr><td>Stripe fees (approx.)</td><td>−£300</td></tr>
-            <tr class="total"><td>John keeps</td><td>£8,860</td></tr>
-          </tbody>
-        </table>
+        <h2>VAT: two options for John</h2>
+        <p>If JNPH is VAT registered, 20% VAT is due on every plan payment. John either absorbs it in the current price or puts the price up to cover it.</p>
         <ul>
-          <li>From year two there's no setup fee, so John keeps about £9,360.</li>
-          <li>My fee is 8p in every £1 members pay.</li>
+          <li><strong>VAT included:</strong> members pay £18.99. One sixth goes to HMRC, so John's share is £15.83.</li>
+          <li><strong>VAT added:</strong> members pay £22.79. John's share stays £18.99.</li>
+          <li>Prices shown to the public must include VAT by law, so "£18.99 + VAT" can't be advertised. The site would show £22.79 (or round to £22.99).</li>
+        </ul>
+        <div class="table-scroll">
+          <table class="data-table">
+            <thead>
+              <tr><th>Plan</th><th>VAT included: member pays</th><th>John's share</th><th>VAT added: member pays</th><th>John's share</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Monthly</td><td>£18.99</td><td>£15.83</td><td>£22.79</td><td>£18.99</td></tr>
+              <tr><td>Yearly</td><td>£199.00</td><td>£165.83</td><td>£238.80</td><td>£199.00</td></tr>
+              <tr><td>Air con add-on, monthly</td><td>£6.00</td><td>£5.00</td><td>£7.20</td><td>£6.00</td></tr>
+              <tr><td>Air con add-on, yearly</td><td>£69.00</td><td>£57.50</td><td>£82.80</td><td>£69.00</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>My 8% is worked out on plan revenue excluding VAT, so I never take a cut of the VAT. I'm not VAT registered, so my invoices have no VAT on them.</p>
+      </section>
+
+      <section>
+        <h2>In perspective</h2>
+        <p>At 50 members, John's first-year cost of setup plus my fee is <strong>£1,200 to £1,340</strong>, less than a fifth of one £8,000 bathroom refit.</p>
+        <div class="table-scroll">
+          <table class="data-table sums sums-wide">
+            <thead><tr><th>At 50 members, year one</th><th>VAT included</th><th>VAT added</th></tr></thead>
+            <tbody>
+              <tr><td>Members pay</td><td>£10,500</td><td>£12,600</td></tr>
+              <tr><td>VAT to HMRC</td><td>−£1,750</td><td>−£2,100</td></tr>
+              <tr><td>Setup fee (once)</td><td>−£500</td><td>−£500</td></tr>
+              <tr><td>My 8% fee (on revenue excluding VAT)</td><td>−£700</td><td>−£840</td></tr>
+              <tr><td>Stripe fees (approx.)</td><td>−£300</td><td>−£360</td></tr>
+              <tr class="total"><td>John keeps</td><td>£7,250</td><td>£8,800</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <ul>
+          <li>From year two there's no setup fee, so John keeps about £7,750 (VAT included) or £9,300 (VAT added).</li>
+          <li>My fee is 8p in every £1 John earns from the plan, after VAT.</li>
           <li>Honest caveat: John still does 50 boiler services. The plan income is payment for those visits, collected upfront.</li>
           <li>One extra bathroom job a year won through the plan more than covers everything above.</li>
         </ul>

@@ -348,3 +348,4 @@ mark { background: #fde68a; color: var(--ink); padding: 0 3px; border-radius: 3p
   .offer-num { font-size: 2.2rem; }
 }
 .demo-bar a { color: #fff; font-weight: 700; margin-left: 6px; }
+.data-table.sums-wide { max-width: 560px; }
