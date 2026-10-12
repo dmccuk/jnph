@@ -314,3 +314,37 @@ mark { background: #fde68a; color: var(--ink); padding: 0 3px; border-radius: 3p
   .terms-nav ol { display: none; }
 }
 .site-footer a { color: #fff; }
+
+/* Proposal page */
+.proposal-body { max-width: 860px; }
+.proposal-body section { padding-top: 36px; margin-top: 36px; border-top: 1px solid var(--line); }
+.proposal-body ul { padding-left: 1.3em; margin: 0 0 1em; }
+.proposal-body li { margin-bottom: 8px; max-width: 70ch; }
+.offer { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+.offer div { background: var(--ink); color: #fff; border-radius: var(--radius-l); padding: 22px 24px; display: grid; gap: 4px; }
+.offer span:last-child { color: #a9b8c5; }
+.offer-num { font-family: var(--display); font-weight: 800; font-size: 2.6rem; line-height: 1; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.fee-chart { margin: 0 0 16px; overflow-x: auto; }
+.fee-chart svg { display: block; width: 100%; min-width: 620px; height: auto; font: 12px var(--body); }
+.c-title { font: 700 16px var(--display); fill: var(--ink); }
+.c-sub { fill: var(--ink-soft); }
+.c-label { fill: var(--ink); }
+.c-value { fill: var(--ink); font-weight: 700; }
+.c-bar { fill: var(--cool); }
+.c-bar-min { fill: #b8c2ca; }
+.c-ref { stroke: #8a99a6; stroke-dasharray: 4 4; }
+.c-axis { stroke: var(--ink-soft); }
+.table-scroll { overflow-x: auto; margin-bottom: 16px; }
+.data-table { width: 100%; border-collapse: collapse; background: var(--surface); font-size: 0.95rem; }
+.data-table th, .data-table td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.data-table th { background: var(--ink); color: #fff; font-weight: 700; }
+.data-table td + td, .data-table th + th { text-align: right; white-space: nowrap; }
+.data-table.sums { max-width: 420px; margin-bottom: 20px; }
+.data-table .total td { font-weight: 700; border-top: 2px solid var(--ink); border-bottom: 0; }
+
+@media (max-width: 760px) {
+  .offer, .two-col { grid-template-columns: 1fr; }
+  .offer-num { font-size: 2.2rem; }
+}
+.demo-bar a { color: #fff; font-weight: 700; margin-left: 6px; }
